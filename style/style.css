@@ -1,25 +1,25 @@
-section.skills h2, section.portfolio h2, section.links h2, section.contact h2, section.web-nav nav a.navbar-brand, section.header p, section.skills p, section.skills span, section.footer .row .col-md-3 li.head a {
-  font-family: 'Roboto', sans-serif;
+section.footer .row .col-md-3 li.head a, section.skills span, section.skills p, section.header p, section.web-nav nav a.navbar-brand, section.contact h2, section.links h2, section.portfolio h2, section.skills h2 {
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 
-section.header a.contact, section.contact a.contact, section.header .cv, section.portfolio .box-post .card-post .links a, section.links .box-row .box p, section.footer .box p {
-  font-family: 'Roboto', sans-serif;
+section.footer .box p, section.links .box-row .box p, section.portfolio .box-post .card-post .links a, section.header .cv, section.contact a.contact, section.header a.contact {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
-section.skills h4, section.links .box-row .box small, section.footer li a {
-  font-family: 'Rubik', sans-serif;
+section.footer li a, section.links .box-row .box small, section.skills h4 {
+  font-family: "Rubik", sans-serif;
   font-weight: 300;
 }
 
-section.web-nav nav ul a, section.header h3, section.header h1 {
-  font-family: 'Rubik', sans-serif;
+section.header h1, section.header h3, section.web-nav nav ul a {
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
 }
 
-section.header a.contact, section.contact a.contact {
-  background-color: #6BC1FF;
+section.contact a.contact, section.header a.contact {
+  background-color: #002060;
   color: #FFFFFF;
   font-size: 14px;
   text-transform: capitalize;
@@ -28,44 +28,36 @@ section.header a.contact, section.contact a.contact {
   text-decoration: none;
 }
 
-section.skills h2, section.portfolio h2, section.links h2, section.contact h2 {
+section.contact h2, section.links h2, section.portfolio h2, section.skills h2 {
   text-transform: uppercase;
 }
 
 .show-parallax {
   opacity: 1 !important;
-  -webkit-transform: translate(0, 0) !important;
-          transform: translate(0, 0) !important;
+  transform: translate(0, 0) !important;
 }
 
 section.header img {
   opacity: 0;
-  -webkit-transition: 1.5s;
   transition: 1.5s;
-  -webkit-transform: translate(24px, 0);
-          transform: translate(24px, 0);
+  transform: translate(24px, 0);
 }
 
 section.portfolio .box-post .card-post {
   opacity: 0;
-  -webkit-transition: 1.5s;
   transition: 1.5s;
-  -webkit-transform: translate(0, -24px);
-          transform: translate(0, -24px);
+  transform: translate(0, -24px);
 }
 
 section.skills .tools-uiux, section.skills .tools-dev {
   opacity: 0;
-  -webkit-transition: 1.5s;
   transition: 1.5s;
-  -webkit-transform: translate(0, 24px);
-          transform: translate(0, 24px);
+  transform: translate(0, 24px);
 }
 
 body {
   color: #333333;
 }
-
 body i {
   margin-right: 10px;
 }
@@ -73,31 +65,25 @@ body i {
 section.web-nav {
   background-color: #FFFFFF;
 }
-
 section.web-nav nav {
   padding: 30px 0px;
 }
-
 section.web-nav nav a.navbar-brand {
   font-size: 20px;
   color: #333333;
   text-transform: uppercase;
 }
-
 section.web-nav nav ul a {
   font-size: 16px;
   color: #aaaaaa;
 }
-
 section.web-nav nav ul li {
   margin-left: 62px;
 }
-
 section.web-nav nav ul li a.active {
   color: #222;
   padding-bottom: 16px;
 }
-
 section.web-nav nav ul li a.nav-link {
   padding: 0px !important;
 }
@@ -105,15 +91,12 @@ section.web-nav nav ul li a.nav-link {
 section.header {
   margin-top: 140px;
 }
-
 section.header h3 {
   font-size: 28px;
 }
-
 section.header h1 {
   font-size: 52px;
 }
-
 section.header p {
   font-size: 16px;
   color: #707070;
@@ -121,31 +104,24 @@ section.header p {
   margin-top: 10px;
   line-height: 32px;
 }
-
 section.header a.contact {
   padding: 12px 32px;
-  -webkit-transition: .3s;
-  transition: .3s;
+  transition: 0.3s;
 }
-
 section.header a.contact:hover {
-  background-color: #40AAF6;
+  background-color: #002060;
 }
-
 section.header .cv {
-  color: #40AAF6;
+  color: #002060;
   text-decoration: underline;
   font-size: 16px;
   display: inline-block;
   margin-left: 32px;
-  -webkit-transition: .2s;
-  transition: .2s;
+  transition: 0.2s;
 }
-
 section.header .cv:hover {
-  color: #40AAF6;
+  color: #002060;
 }
-
 section.header img {
   width: 60%;
 }
@@ -153,27 +129,22 @@ section.header img {
 section.skills {
   margin-top: 150px;
 }
-
 section.skills .box-content {
   margin-top: 32px;
   background-color: #fafafa;
   border-radius: 4px;
   padding: 42px;
 }
-
 section.skills h4 {
   font-size: 24px;
 }
-
 section.skills p {
   font-size: 16px;
   margin-top: 24px;
 }
-
 section.skills .icon img {
   height: 32px;
 }
-
 section.skills span {
   display: inline-block;
   padding: 8px 26px;
@@ -183,11 +154,9 @@ section.skills span {
   background-color: transparent;
   border: 1px solid #aaaaaa;
 }
-
 section.skills .box-icon {
   margin-bottom: 20px;
 }
-
 section.skills .development {
   margin-top: 42px;
 }
@@ -195,19 +164,15 @@ section.skills .development {
 section.portfolio {
   margin-top: 150px;
 }
-
 section.portfolio h2 {
   font-size: 32px;
 }
-
 section.portfolio .box-post {
   margin-top: 42px;
 }
-
 section.portfolio .box-post .card-post img {
   width: 100%;
 }
-
 section.portfolio .box-post .card-post .links a {
   font-size: 16px;
   color: #555;
@@ -219,77 +184,62 @@ section.button {
   margin-top: 72px;
   margin-bottom: 72px;
 }
-
 section.button a.btn-more {
   padding: 14px 24px;
-  border: 1px solid #6BC1FF !important;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  border: 1px solid #002060 !important;
+  box-sizing: border-box;
   border-radius: 4px;
   font-family: Roboto;
   font-size: 16px;
-  color: #6BC1FF;
+  color: #002060;
   text-decoration: none;
-  -webkit-transition: .3s;
-  transition: .3s;
+  transition: 0.3s;
 }
-
 section.button a.btn-more:hover {
-  background-color: #6BC1FF;
+  background-color: #002060;
   color: #FFFFFF;
 }
 
 section.links {
   margin-top: 150px;
 }
-
 section.links h2 {
   font-size: 32px;
 }
-
 section.links .box-row {
   margin-top: 42px;
 }
-
 section.links .box-row .box {
   width: 100%;
 }
-
 section.links .box-row .box .box-icon {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   background-color: rgba(107, 193, 255, 0.16);
   margin: auto;
-  -webkit-transition: .3s;
-  transition: .3s;
+  transition: 0.3s;
 }
-
 section.links .box-row .box .box-icon i {
   font-size: 32px;
-  color: #6BC1FF;
+  color: #002060;
   margin: auto;
   border-radius: 50%;
-  -webkit-transition: .3s;
-  transition: .3s;
+  transition: 0.3s;
 }
-
 section.links .box-row .box .box-icon:hover {
   cursor: pointer;
-  background-color: #6BC1FF;
+  background-color: #002060;
   text-decoration: none;
 }
-
 section.links .box-row .box .box-icon:hover i {
   color: #FFFFFF;
   text-decoration: none;
 }
-
 section.links .box-row .box p {
   font-size: 20px;
   margin: 16px 0 4px 0;
 }
-
 section.links .box-row .box small {
   font-size: 16px;
   color: #555555;
@@ -298,7 +248,6 @@ section.links .box-row .box small {
 section.contact {
   margin-top: 150px;
 }
-
 section.contact a.contact {
   margin-top: 32px;
   text-align: center;
@@ -310,38 +259,31 @@ section.footer {
   background-color: #fafafa;
   padding: 50px 0 24px 0;
 }
-
 section.footer li {
   list-style-type: none;
   margin-bottom: 18px;
 }
-
 section.footer li a {
   font-size: 16px;
   color: #555555;
 }
-
 section.footer .row .col-md-3 li.head {
   margin-bottom: 22px;
   font-size: 18px;
   text-transform: uppercase;
 }
-
 section.footer .row .col-md-3 li.head a {
   color: #333;
 }
-
 section.footer .box {
   text-align: center;
   margin-top: 72px;
 }
-
 section.footer .box hr {
   width: 70%;
   border: 1px solid #cccccc;
   display: block;
 }
-
 section.footer .box p {
   font-size: 16px;
   color: #aaaaaa;
@@ -367,6 +309,7 @@ section.footer .box p {
   section.web-nav nav ul a {
     font-size: 16px;
   }
+
   section.header {
     margin-top: 100px;
   }
@@ -392,6 +335,7 @@ section.footer .box p {
     margin-top: 42px;
     width: 50%;
   }
+
   section.skills {
     margin-top: 100px;
   }
@@ -423,6 +367,7 @@ section.footer .box p {
   section.skills .development {
     margin-top: 32px;
   }
+
   section.portfolio {
     margin-top: 100px;
   }
@@ -444,6 +389,7 @@ section.footer .box p {
     display: inline-block;
     margin-right: 24px;
   }
+
   section.button {
     margin-top: 12px;
     margin-bottom: 42px;
@@ -451,6 +397,7 @@ section.footer .box p {
   section.button a.btn-more {
     font-size: 14px;
   }
+
   section.links {
     margin-top: 100px;
   }
@@ -477,6 +424,7 @@ section.footer .box p {
   section.links .box-row .box small {
     font-size: 14px;
   }
+
   section.contact {
     margin-top: 100px;
   }
@@ -486,6 +434,7 @@ section.footer .box p {
   section.contact a.contact {
     margin-top: 20px;
   }
+
   section.footer {
     margin-top: 100px;
   }
@@ -516,7 +465,6 @@ section.footer .box p {
     margin-top: 16px;
   }
 }
-
 @media (min-width: 576px) and (max-width: 991.98px) {
   section.web-nav nav {
     padding: 20px 0px;
@@ -534,6 +482,7 @@ section.footer .box p {
   section.web-nav nav ul a {
     font-size: 16px;
   }
+
   section.header {
     margin-top: 140px;
   }
@@ -552,12 +501,14 @@ section.footer .box p {
     margin-top: 50px;
     width: 40%;
   }
+
   section.skills {
     margin-top: 140px;
   }
   section.skills h2 {
     font-size: 26px;
   }
+
   section.portfolio {
     margin-top: 140px;
   }
@@ -573,6 +524,7 @@ section.footer .box p {
   section.portfolio .box-post .card-post .links a {
     font-size: 16px;
   }
+
   section.links {
     margin-top: 140px;
   }
@@ -592,6 +544,7 @@ section.footer .box p {
   section.links .box-row .box small {
     font-size: 14px;
   }
+
   section.contact {
     margin-top: 140px;
   }
@@ -601,6 +554,7 @@ section.footer .box p {
   section.contact a.contact {
     margin-top: 20px;
   }
+
   section.footer {
     margin-top: 140px;
   }
@@ -631,11 +585,9 @@ section.footer .box p {
     margin-top: 16px;
   }
 }
-
 @media (min-width: 992px) and (max-width: 1026px) {
   section.header img {
     width: 60%;
     height: 72%;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
